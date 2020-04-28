@@ -34,6 +34,26 @@ Link to the API's documentation you will use for your project.
 
 [RIOT Games API](https://developer.riotgames.com/)
 
+Example Fetch URL
+https://api.fortnitetracker.com/v1/powerrankings/pc/NAE/Ninja
+
+Response:
+
+```
+{
+  "region": "NAE",
+  "name": "Ninja",
+  "platform": "PC",
+  "points": 29977,
+  "cashPrize": 10150.0,
+  "events": 16,
+  "rank": 214,
+  "percentile": 0.2,
+  "countryCode": "US",
+  "twitter": "Ninja"
+}
+```
+
 ## Component Hierarchy
 
 ![alt text](./images/Component_Heirarchy.png)
