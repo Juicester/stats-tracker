@@ -7,9 +7,6 @@ function NewReleases() {
 	console.log(year);
 	console.log(month);
 
-	// const nextURL =
-	// 	'https://www.giantbomb.com/api/games/?api_key=42a7abdb6d79eb765754f008c2d5d3fceb2cdc70&format=json&limit=10&sort=direction:desc&filter=expected_release_year:2021';
-
 	const [releaseData, setReleaseData] = useState([]);
 
 	useEffect(() => {

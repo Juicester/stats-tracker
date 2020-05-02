@@ -19,8 +19,7 @@ function App() {
 
 	const url = `${searchOptions.api}${searchOptions.endpoint}?api_key=${searchOptions.key}&format=${searchOptions.format}&limit=${searchOptions.limit}&filter=name:${searchOptions.name}`;
 	console.log(url);
-	// const url =
-	// 	'https://www.giantbomb.com/api/games/?api_key=42a7abdb6d79eb765754f008c2d5d3fceb2cdc70&format=json&filter=name:Call%20of%20Duty';
+
 	// useEffect(() => {
 	// 	fetch('https://cors-anywhere.herokuapp.com/' + url)
 	// 		.then((res) => res.json())
@@ -54,8 +53,3 @@ function App() {
 	);
 }
 export default App;
-
-const hofURL =
-	'https://www.giantbomb.com/api/games/?api_key=42a7abdb6d79eb765754f008c2d5d3fceb2cdc70&format=json&limit=10&sort=direction:desc&filter=expected_release_year:2021';
-
-
