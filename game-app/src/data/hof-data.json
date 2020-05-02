@@ -1,0 +1,537 @@
+[
+	{
+		"aliases": "H2",
+		"api_detail_url": "https://www.giantbomb.com/api/game/3030-7110/",
+		"date_added": "2008-04-01 15:40:47",
+		"date_last_updated": "2019-04-23 04:17:11",
+		"deck": "The sequel to Halo: Combat Evolved continues the epic story of humanity's last and best hope: the super-soldier Master Chief, as he defends Earth from a Covenant invasion and fights to prevent the activation of another Halo ring.",
+		"expected_release_day": null,
+		"expected_release_month": null,
+		"expected_release_quarter": null,
+		"expected_release_year": null,
+		"guid": "3030-7110",
+		"id": 7110,
+		"image": {
+			"icon_url": "https://giantbomb1.cbsistatic.com/uploads/square_avatar/8/87790/2079825-box_halo2.png",
+			"medium_url": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2079825-box_halo2.png",
+			"screen_url": "https://giantbomb1.cbsistatic.com/uploads/screen_medium/8/87790/2079825-box_halo2.png",
+			"screen_large_url": "https://giantbomb1.cbsistatic.com/uploads/screen_kubrick/8/87790/2079825-box_halo2.png",
+			"small_url": "https://giantbomb1.cbsistatic.com/uploads/scale_small/8/87790/2079825-box_halo2.png",
+			"super_url": "https://giantbomb1.cbsistatic.com/uploads/scale_large/8/87790/2079825-box_halo2.png",
+			"thumb_url": "https://giantbomb1.cbsistatic.com/uploads/scale_avatar/8/87790/2079825-box_halo2.png",
+			"tiny_url": "https://giantbomb1.cbsistatic.com/uploads/square_mini/8/87790/2079825-box_halo2.png",
+			"original_url": "https://giantbomb1.cbsistatic.com/uploads/original/8/87790/2079825-box_halo2.png",
+			"image_tags": "All Images,Box Art"
+		},
+		"image_tags": [
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-7110/?filter=image_tag%3AAll+Images",
+				"name": "All Images",
+				"total": 303
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-7110/?filter=image_tag%3ABox+Art",
+				"name": "Box Art",
+				"total": 14
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-7110/?filter=image_tag%3ACharacters",
+				"name": "Characters",
+				"total": 13
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-7110/?filter=image_tag%3AConcept+Art",
+				"name": "Concept Art",
+				"total": 34
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-7110/?filter=image_tag%3AE3+2004",
+				"name": "E3 2004",
+				"total": 1
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-7110/?filter=image_tag%3ALogos",
+				"name": "Logos",
+				"total": 1
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-7110/?filter=image_tag%3APC+Screenshots",
+				"name": "PC Screenshots",
+				"total": 44
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-7110/?filter=image_tag%3AScreenshots",
+				"name": "Screenshots",
+				"total": 168
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-7110/?filter=image_tag%3AVehicles",
+				"name": "Vehicles",
+				"total": 2
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-7110/?filter=image_tag%3AWallpaper",
+				"name": "Wallpaper",
+				"total": 14
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-7110/?filter=image_tag%3AWeapons",
+				"name": "Weapons",
+				"total": 3
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-7110/?filter=image_tag%3AXBOX+Screenshots",
+				"name": "XBOX Screenshots",
+				"total": 23
+			}
+		],
+		"name": "Halo 2",
+		"number_of_user_reviews": 0,
+		"original_game_rating": [
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-16/",
+				"id": 16,
+				"name": "ESRB: M"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-2/",
+				"id": 2,
+				"name": "PEGI: 16+"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-28/",
+				"id": 28,
+				"name": "CERO: 15+"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-36/",
+				"id": 36,
+				"name": "PEGI: 12+"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-12/",
+				"id": 12,
+				"name": "OFLC: MA15+"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-27/",
+				"id": 27,
+				"name": "CERO: C"
+			}
+		],
+		"original_release_date": "2004-11-09",
+		"platforms": [
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/platform/3045-32/",
+				"id": 32,
+				"name": "Xbox",
+				"site_detail_url": "https://www.giantbomb.com/xbox/3045-32/",
+				"abbreviation": "XBOX"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/platform/3045-94/",
+				"id": 94,
+				"name": "PC",
+				"site_detail_url": "https://www.giantbomb.com/pc/3045-94/",
+				"abbreviation": "PC"
+			}
+		],
+		"site_detail_url": "https://www.giantbomb.com/halo-2/3030-7110/"
+	},
+	{
+		"aliases": "WoW",
+		"api_detail_url": "https://www.giantbomb.com/api/game/3030-19783/",
+		"date_added": "2008-04-01 16:49:47",
+		"date_last_updated": "2019-08-03 15:46:38",
+		"deck": "World of Warcraft is an MMORPG that takes place in Blizzard Entertainment's Warcraft universe. At its peak, it boasted a player base of over 12.5 million subscribers, making it the most popular MMO of all time.",
+		"expected_release_day": null,
+		"expected_release_month": null,
+		"expected_release_quarter": null,
+		"expected_release_year": null,
+		"guid": "3030-19783",
+		"id": 19783,
+		"image": {
+			"icon_url": "https://giantbomb1.cbsistatic.com/uploads/square_avatar/8/87790/2849275-box_wow.png",
+			"medium_url": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2849275-box_wow.png",
+			"screen_url": "https://giantbomb1.cbsistatic.com/uploads/screen_medium/8/87790/2849275-box_wow.png",
+			"screen_large_url": "https://giantbomb1.cbsistatic.com/uploads/screen_kubrick/8/87790/2849275-box_wow.png",
+			"small_url": "https://giantbomb1.cbsistatic.com/uploads/scale_small/8/87790/2849275-box_wow.png",
+			"super_url": "https://giantbomb1.cbsistatic.com/uploads/scale_large/8/87790/2849275-box_wow.png",
+			"thumb_url": "https://giantbomb1.cbsistatic.com/uploads/scale_avatar/8/87790/2849275-box_wow.png",
+			"tiny_url": "https://giantbomb1.cbsistatic.com/uploads/square_mini/8/87790/2849275-box_wow.png",
+			"original_url": "https://giantbomb1.cbsistatic.com/uploads/original/8/87790/2849275-box_wow.png",
+			"image_tags": "All Images,Box Art"
+		},
+		"image_tags": [
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3AAll+Images",
+				"name": "All Images",
+				"total": 2748
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3AArtwork",
+				"name": "Artwork",
+				"total": 16
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3ABlizzCon",
+				"name": "BlizzCon",
+				"total": 1
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3ABox+Art",
+				"name": "Box Art",
+				"total": 12
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3ACosplay",
+				"name": "Cosplay",
+				"total": 4
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3ACreatures",
+				"name": "Creatures",
+				"total": 7
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3AE3+2002",
+				"name": "E3 2002",
+				"total": 2
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3AE3+2004",
+				"name": "E3 2004",
+				"total": 8
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3AE3+2005",
+				"name": "E3 2005",
+				"total": 1
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3AFan+Art",
+				"name": "Fan Art",
+				"total": 50
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3AFigurines",
+				"name": "Figurines",
+				"total": 14
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3AHumor",
+				"name": "Humor",
+				"total": 1
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3AInterface",
+				"name": "Interface",
+				"total": 2
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3AMAC+Screenshots",
+				"name": "MAC Screenshots",
+				"total": 5
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3AMaps",
+				"name": "Maps",
+				"total": 38
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3AMerchandise",
+				"name": "Merchandise",
+				"total": 1
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3APC+Screenshots",
+				"name": "PC Screenshots",
+				"total": 1670
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3APlayer+Characters",
+				"name": "Player Characters",
+				"total": 9
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3AScreenshots",
+				"name": "Screenshots",
+				"total": 2325
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3AShirts",
+				"name": "Shirts",
+				"total": 1
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19783/?filter=image_tag%3AWallpapers",
+				"name": "Wallpapers",
+				"total": 16
+			}
+		],
+		"name": "World of Warcraft",
+		"number_of_user_reviews": 0,
+		"original_game_rating": [
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-1/",
+				"id": 1,
+				"name": "ESRB: T"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-36/",
+				"id": 36,
+				"name": "PEGI: 12+"
+			}
+		],
+		"original_release_date": "2004-11-23",
+		"platforms": [
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/platform/3045-17/",
+				"id": 17,
+				"name": "Mac",
+				"site_detail_url": "https://www.giantbomb.com/mac/3045-17/",
+				"abbreviation": "MAC"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/platform/3045-94/",
+				"id": 94,
+				"name": "PC",
+				"site_detail_url": "https://www.giantbomb.com/pc/3045-94/",
+				"abbreviation": "PC"
+			}
+		],
+		"site_detail_url": "https://www.giantbomb.com/world-of-warcraft/3030-19783/"
+	},
+	{
+		"aliases": "ME",
+		"api_detail_url": "https://www.giantbomb.com/api/game/3030-16909/",
+		"date_added": "2008-04-01 16:30:25",
+		"date_last_updated": "2019-03-21 16:33:47",
+		"deck": "Humanity is still a newcomer on the futuristic galactic stage, and it's up to the charismatic Commander Shepard to investigate the actions of a rogue agent while under threat from a dangerous synthetic race known as the Geth.",
+		"expected_release_day": null,
+		"expected_release_month": null,
+		"expected_release_quarter": null,
+		"expected_release_year": null,
+		"guid": "3030-16909",
+		"id": 16909,
+		"image": {
+			"icon_url": "https://giantbomb1.cbsistatic.com/uploads/square_avatar/8/82063/2577246-me1.jpg",
+			"medium_url": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/82063/2577246-me1.jpg",
+			"screen_url": "https://giantbomb1.cbsistatic.com/uploads/screen_medium/8/82063/2577246-me1.jpg",
+			"screen_large_url": "https://giantbomb1.cbsistatic.com/uploads/screen_kubrick/8/82063/2577246-me1.jpg",
+			"small_url": "https://giantbomb1.cbsistatic.com/uploads/scale_small/8/82063/2577246-me1.jpg",
+			"super_url": "https://giantbomb1.cbsistatic.com/uploads/scale_large/8/82063/2577246-me1.jpg",
+			"thumb_url": "https://giantbomb1.cbsistatic.com/uploads/scale_avatar/8/82063/2577246-me1.jpg",
+			"tiny_url": "https://giantbomb1.cbsistatic.com/uploads/square_mini/8/82063/2577246-me1.jpg",
+			"original_url": "https://giantbomb1.cbsistatic.com/uploads/original/8/82063/2577246-me1.jpg",
+			"image_tags": "All Images,Box Art"
+		},
+		"image_tags": [
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-16909/?filter=image_tag%3AAll+Images",
+				"name": "All Images",
+				"total": 1088
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-16909/?filter=image_tag%3ABox+Art",
+				"name": "Box Art",
+				"total": 13
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-16909/?filter=image_tag%3AConcept+Art",
+				"name": "Concept Art",
+				"total": 58
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-16909/?filter=image_tag%3ANovels",
+				"name": "Novels",
+				"total": 3
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-16909/?filter=image_tag%3AOfficial+Artwork",
+				"name": "Official Artwork",
+				"total": 22
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-16909/?filter=image_tag%3APC+Screenshots",
+				"name": "PC Screenshots",
+				"total": 218
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-16909/?filter=image_tag%3APictures+From+Bioware+website",
+				"name": "Pictures From Bioware website",
+				"total": 1
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-16909/?filter=image_tag%3AScreenshots",
+				"name": "Screenshots",
+				"total": 277
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-16909/?filter=image_tag%3AWallpaper",
+				"name": "Wallpaper",
+				"total": 25
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-16909/?filter=image_tag%3AX360+Screenshots",
+				"name": "X360 Screenshots",
+				"total": 152
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-16909/?filter=image_tag%3AZune+Backgrounds",
+				"name": "Zune Backgrounds",
+				"total": 1
+			}
+		],
+		"name": "Mass Effect",
+		"number_of_user_reviews": 0,
+		"original_game_rating": [
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-16/",
+				"id": 16,
+				"name": "ESRB: M"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-21/",
+				"id": 21,
+				"name": "BBFC: 12"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-12/",
+				"id": 12,
+				"name": "OFLC: MA15+"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-32/",
+				"id": 32,
+				"name": "CERO: D"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-2/",
+				"id": 2,
+				"name": "PEGI: 16+"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-37/",
+				"id": 37,
+				"name": "PEGI: 18+"
+			}
+		],
+		"original_release_date": "2007-11-20",
+		"platforms": [
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/platform/3045-20/",
+				"id": 20,
+				"name": "Xbox 360",
+				"site_detail_url": "https://www.giantbomb.com/xbox-360/3045-20/",
+				"abbreviation": "X360"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/platform/3045-35/",
+				"id": 35,
+				"name": "PlayStation 3",
+				"site_detail_url": "https://www.giantbomb.com/playstation-3/3045-35/",
+				"abbreviation": "PS3"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/platform/3045-88/",
+				"id": 88,
+				"name": "PlayStation Network (PS3)",
+				"site_detail_url": "https://www.giantbomb.com/playstation-network-ps3/3045-88/",
+				"abbreviation": "PS3N"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/platform/3045-94/",
+				"id": 94,
+				"name": "PC",
+				"site_detail_url": "https://www.giantbomb.com/pc/3045-94/",
+				"abbreviation": "PC"
+			}
+		],
+		"site_detail_url": "https://www.giantbomb.com/mass-effect/3030-16909/"
+	},
+	{
+		"aliases": "SSB64 Nintendo All Star! Dairanto Smash Brothers",
+		"api_detail_url": "https://www.giantbomb.com/api/game/3030-19125/",
+		"date_added": "2008-04-01 16:45:00",
+		"date_last_updated": "2019-01-22 06:05:34",
+		"deck": "Characters from popular Nintendo franchises meet up for the first time (and then duke it out) in this crossover fighting game by HAL.",
+		"expected_release_day": null,
+		"expected_release_month": null,
+		"expected_release_quarter": null,
+		"expected_release_year": null,
+		"guid": "3030-19125",
+		"id": 19125,
+		"image": {
+			"icon_url": "https://giantbomb1.cbsistatic.com/uploads/square_avatar/8/87790/1810969-box_ssb.png",
+			"medium_url": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/1810969-box_ssb.png",
+			"screen_url": "https://giantbomb1.cbsistatic.com/uploads/screen_medium/8/87790/1810969-box_ssb.png",
+			"screen_large_url": "https://giantbomb1.cbsistatic.com/uploads/screen_kubrick/8/87790/1810969-box_ssb.png",
+			"small_url": "https://giantbomb1.cbsistatic.com/uploads/scale_small/8/87790/1810969-box_ssb.png",
+			"super_url": "https://giantbomb1.cbsistatic.com/uploads/scale_large/8/87790/1810969-box_ssb.png",
+			"thumb_url": "https://giantbomb1.cbsistatic.com/uploads/scale_avatar/8/87790/1810969-box_ssb.png",
+			"tiny_url": "https://giantbomb1.cbsistatic.com/uploads/square_mini/8/87790/1810969-box_ssb.png",
+			"original_url": "https://giantbomb1.cbsistatic.com/uploads/original/8/87790/1810969-box_ssb.png",
+			"image_tags": "All Images,Box Art"
+		},
+		"image_tags": [
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19125/?filter=image_tag%3AAll+Images",
+				"name": "All Images",
+				"total": 66
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19125/?filter=image_tag%3ABox+Art",
+				"name": "Box Art",
+				"total": 6
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19125/?filter=image_tag%3AHardware",
+				"name": "Hardware",
+				"total": 2
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19125/?filter=image_tag%3AN64+Screenshots",
+				"name": "N64 Screenshots",
+				"total": 33
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19125/?filter=image_tag%3AScreenshots",
+				"name": "Screenshots",
+				"total": 50
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-19125/?filter=image_tag%3ATitle+Screen",
+				"name": "Title Screen",
+				"total": 3
+			}
+		],
+		"name": "Super Smash Bros.",
+		"number_of_user_reviews": 0,
+		"original_game_rating": [
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-6/",
+				"id": 6,
+				"name": "ESRB: E"
+			}
+		],
+		"original_release_date": "1999-01-21",
+		"platforms": [
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/platform/3045-43/",
+				"id": 43,
+				"name": "Nintendo 64",
+				"site_detail_url": "https://www.giantbomb.com/nintendo-64/3045-43/",
+				"abbreviation": "N64"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/platform/3045-87/",
+				"id": 87,
+				"name": "Wii Shop",
+				"site_detail_url": "https://www.giantbomb.com/wii-shop/3045-87/",
+				"abbreviation": "WSHP"
+			}
+		],
+		"site_detail_url": "https://www.giantbomb.com/super-smash-bros/3030-19125/"
+	}
+]
