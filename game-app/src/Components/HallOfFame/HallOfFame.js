@@ -1,7 +1,7 @@
 import React from 'react';
 
 function HallOfFame(props) {
-	console.log(props);
+	// console.log(props);
 
 	return (
 		<div className='HOF Gallery'>

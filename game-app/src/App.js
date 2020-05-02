@@ -18,7 +18,7 @@ function App() {
 	};
 
 	const url = `${searchOptions.api}${searchOptions.endpoint}?api_key=${searchOptions.key}&format=${searchOptions.format}&limit=${searchOptions.limit}&filter=name:${searchOptions.name}`;
-	console.log(url);
+	// console.log(url);
 
 	// useEffect(() => {
 	// 	fetch('https://cors-anywhere.herokuapp.com/' + url)

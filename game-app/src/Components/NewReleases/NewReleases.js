@@ -4,8 +4,8 @@ function NewReleases() {
 	let today = new Date();
 	let year = today.getFullYear();
 	let month = today.getMonth();
-	console.log(year);
-	console.log(month);
+	// console.log(year);
+	// console.log(month);
 
 	const [releaseData, setReleaseData] = useState([]);
 
@@ -26,13 +26,13 @@ function NewReleases() {
 
 	function getReleaseData() {
 		const newReleaseURL = `${newReleaseOptions.api}${newReleaseOptions.endpoint}?api_key=${newReleaseOptions.key}&format=${newReleaseOptions.format}&limit=${newReleaseOptions.limit}&sort=${newReleaseOptions.sort}&filter=expected_release_year:${newReleaseOptions.filterYear},expected_release_month:${newReleaseOptions.filterMonth}`;
-		console.log(newReleaseURL);
+		// console.log(newReleaseURL);
 
 		fetch('https://cors-anywhere.herokuapp.com/' + newReleaseURL)
 			.then((response) => response.json())
 			.then((response) => {
 				setReleaseData(response.results);
-				console.log(response);
+				// console.log(response);
 			})
 			.catch(console.error);
 	}
