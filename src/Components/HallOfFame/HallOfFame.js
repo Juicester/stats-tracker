@@ -6,11 +6,12 @@ function HallOfFame(props) {
 
 	return (
 		<Container fluid>
-			<div className='HOF Gallery'>
+			<h1>Juicester's Top 5</h1>
+			<div className='game-container'>
 				{props.data.map((game) => (
-					<div key={game.name}>
+					<div key={game.name} className='game-box'>
 						<h1>{game.name}</h1>
-						<img src={game.image.small_url} alt='game' />
+						<img src={game.image.original_url} alt={game.name} />
 						<p>{game.deck}</p>
 					</div>
 				))}

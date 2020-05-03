@@ -14,7 +14,7 @@ function NewReleases() {
 
 	const newReleaseOptions = {
 		key: process.env.REACT_APP_GIANTBOMB_KEY,
-		limit: 3,
+		limit: 7,
 		format: 'json',
 		api: 'https://www.giantbomb.com/api',
 		endpoint: '/games',
@@ -25,7 +25,6 @@ function NewReleases() {
 
 	function getReleaseData() {
 		const newReleaseURL = `${newReleaseOptions.api}${newReleaseOptions.endpoint}?api_key=${newReleaseOptions.key}&format=${newReleaseOptions.format}&limit=${newReleaseOptions.limit}&sort=${newReleaseOptions.sort}&filter=expected_release_year:${newReleaseOptions.filterYear},expected_release_month:${newReleaseOptions.filterMonth}`;
-		// console.log(newReleaseURL);
 
 		fetch('https://cors-anywhere.herokuapp.com/' + newReleaseURL)
 			.then((response) => response.json())
@@ -33,23 +32,21 @@ function NewReleases() {
 				setReleaseData(response.results);
 				// console.log(response);
 			})
-			.catch(console.error);
-	}
-
-	if (!releaseData.length) {
-		return <h2>No Data Found, or The API is Slow</h2>;
+			.catch(alert.error);
 	}
 
 	return (
 		<div>
-			<h2>Hello from New Releases</h2>
-			{releaseData.map((game) => (
-				<div key={game.name}>
-					<h1>{game.name}</h1>
-					<img src={game.image.small_url} alt='game' />
-					<p>{game.deck}</p>
-				</div>
-			))}
+			<h1>Coming Next Month</h1>
+			<div className='game-container'>
+				{releaseData?.map((game) => (
+					<div key={game.name} className='game-box'>
+						<h1>{game.name}</h1>
+						<img src={game.image.original_url} alt={game.name} />
+						<p>{game.deck}</p>
+					</div>
+				))}
+			</div>
 		</div>
 	);
 }

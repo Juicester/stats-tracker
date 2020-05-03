@@ -533,5 +533,118 @@
 			}
 		],
 		"site_detail_url": "https://www.giantbomb.com/super-smash-bros/3030-19125/"
+	},
+	{
+		"aliases": null,
+		"api_detail_url": "https://www.giantbomb.com/api/game/3030-18782/",
+		"date_added": "2008-04-01 16:42:46",
+		"date_last_updated": "2013-02-27 19:56:12",
+		"deck": "SSX Tricky is the second game in the SSX franchise and was released under the now-defunct EA Sports Big label. Tricky is the first game in the series to feature Uber Tricks. ",
+		"expected_release_day": null,
+		"expected_release_month": null,
+		"expected_release_quarter": null,
+		"expected_release_year": null,
+		"guid": "3030-18782",
+		"id": 18782,
+		"image": {
+			"icon_url": "https://giantbomb1.cbsistatic.com/uploads/square_avatar/8/87790/2139875-box_ssx2.png",
+			"medium_url": "https://giantbomb1.cbsistatic.com/uploads/scale_medium/8/87790/2139875-box_ssx2.png",
+			"screen_url": "https://giantbomb1.cbsistatic.com/uploads/screen_medium/8/87790/2139875-box_ssx2.png",
+			"screen_large_url": "https://giantbomb1.cbsistatic.com/uploads/screen_kubrick/8/87790/2139875-box_ssx2.png",
+			"small_url": "https://giantbomb1.cbsistatic.com/uploads/scale_small/8/87790/2139875-box_ssx2.png",
+			"super_url": "https://giantbomb1.cbsistatic.com/uploads/scale_large/8/87790/2139875-box_ssx2.png",
+			"thumb_url": "https://giantbomb1.cbsistatic.com/uploads/scale_avatar/8/87790/2139875-box_ssx2.png",
+			"tiny_url": "https://giantbomb1.cbsistatic.com/uploads/square_mini/8/87790/2139875-box_ssx2.png",
+			"original_url": "https://giantbomb1.cbsistatic.com/uploads/original/8/87790/2139875-box_ssx2.png",
+			"image_tags": "All Images,Box Art"
+		},
+		"image_tags": [
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-18782/?filter=image_tag%3AAll+Images",
+				"name": "All Images",
+				"total": 39
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-18782/?filter=image_tag%3ABox+Art",
+				"name": "Box Art",
+				"total": 7
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-18782/?filter=image_tag%3AGBA+Screenshots",
+				"name": "GBA Screenshots",
+				"total": 8
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-18782/?filter=image_tag%3AGC+Screenshots",
+				"name": "GC Screenshots",
+				"total": 7
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-18782/?filter=image_tag%3APS2+Screenshots",
+				"name": "PS2 Screenshots",
+				"total": 15
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-18782/?filter=image_tag%3AScreenshots",
+				"name": "Screenshots",
+				"total": 5
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-18782/?filter=image_tag%3ASSX+Tricky+Wallpapers",
+				"name": "SSX Tricky Wallpapers",
+				"total": 1
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/images/3030-18782/?filter=image_tag%3AXBOX+Screenshots",
+				"name": "XBOX Screenshots",
+				"total": 1
+			}
+		],
+		"name": "SSX Tricky",
+		"number_of_user_reviews": 0,
+		"original_game_rating": [
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-36/",
+				"id": 36,
+				"name": "PEGI: 12+"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/game_rating/3065-6/",
+				"id": 6,
+				"name": "ESRB: E"
+			}
+		],
+		"original_release_date": "2001-11-06",
+		"platforms": [
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/platform/3045-4/",
+				"id": 4,
+				"name": "Game Boy Advance",
+				"site_detail_url": "https://www.giantbomb.com/game-boy-advance/3045-4/",
+				"abbreviation": "GBA"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/platform/3045-19/",
+				"id": 19,
+				"name": "PlayStation 2",
+				"site_detail_url": "https://www.giantbomb.com/playstation-2/3045-19/",
+				"abbreviation": "PS2"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/platform/3045-23/",
+				"id": 23,
+				"name": "GameCube",
+				"site_detail_url": "https://www.giantbomb.com/gamecube/3045-23/",
+				"abbreviation": "GCN"
+			},
+			{
+				"api_detail_url": "https://www.giantbomb.com/api/platform/3045-32/",
+				"id": 32,
+				"name": "Xbox",
+				"site_detail_url": "https://www.giantbomb.com/xbox/3045-32/",
+				"abbreviation": "XBOX"
+			}
+		],
+		"site_detail_url": "https://www.giantbomb.com/ssx-tricky/3030-18782/"
 	}
 ]

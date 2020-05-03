@@ -49,3 +49,76 @@ body {
 	background-color: #1f2833;
 	color: #66fcf1;
 }
+
+img {
+	margin-bottom: 1rem;
+	width: 85%;
+}
+
+.game-container {
+	column-count: 2;
+}
+
+.game-box {
+	border: 2px solid #45a29e;
+	background-color: #304545;
+	margin: 1rem 0.5rem;
+	display: inline-block;
+}
+
+.game-box h1 {
+	font-size: 50px;
+}
+.game-box p {
+	font-size: 20px;
+}
+
+input + input,
+input + button {
+	margin-left: 8px;
+	margin-top: 10px;
+}
+
+input {
+	background-color: #0b0c10;
+	color: #66fcf1;
+	flex-grow: 1;
+	font-size: 1rem;
+	line-height: inherit;
+	padding: 0.75rem 1rem;
+	border: 0;
+}
+
+input::placeholder {
+	color: #45a29e;
+}
+
+input:hover,
+input:focus {
+	background-color: #304545;
+	color: #66fcf1;
+}
+
+.search-input {
+	width: 60%;
+}
+
+.limit-input {
+	width: 20%;
+}
+
+button {
+	background-color: #0b0c10;
+	color: #45a29e;
+	border: 0;
+	flex-grow: 0;
+	font-size: 1rem;
+	line-height: 1;
+	padding: 0.75rem 1rem;
+	text-transform: uppercase;
+}
+
+button:hover {
+	background-color: #304545;
+	color: #66fcf1;
+}
