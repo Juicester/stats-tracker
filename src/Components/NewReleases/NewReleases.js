@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 
 function NewReleases() {
 	let today = new Date();
-	console.log(today);
 	let year = today.getFullYear();
 	let month = today.getMonth();
 
@@ -47,7 +46,7 @@ function NewReleases() {
 			{releaseData.map((game) => (
 				<div key={game.name}>
 					<h1>{game.name}</h1>
-					<img src={game.image.small_url} alt='game image' />
+					<img src={game.image.small_url} alt='game' />
 					<p>{game.deck}</p>
 				</div>
 			))}

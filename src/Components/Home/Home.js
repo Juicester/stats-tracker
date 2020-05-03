@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import SearchForm from '../SearchForm/SearchForm';
 
 function Home() {
-	const [data, setData] = useState([]);
-	const [searchString, setSearchString] = useState('halo');
+	const [games, setGames] = useState([]);
+	const [searchString, setSearchString] = useState('');
 
 	const searchOptions = {
 		key: process.env.REACT_APP_GIANTBOMB_KEY,
@@ -21,13 +21,13 @@ function Home() {
 	function getGames(searchString) {
 		const url = `https://cors-anywhere.herokuapp.com/${searchOptions.api}${searchOptions.endpoint}?api_key=${searchOptions.key}&format=${searchOptions.format}&limit=${searchOptions.limit}&filter=name:${searchString}`;
 
-		// fetch(url)
-		// 	.then((response) => response.json())
-		// 	.then((response) => {
-		// 		// setReleaseData(response.results);
-		// 		console.log(response);
-		// 	})
-		// 	.catch(console.error);
+		fetch(url)
+			.then((response) => response.json())
+			.then((response) => {
+				setGames(response.results);
+				console.log(response);
+			})
+			.catch(console.error);
 	}
 
 	function handleChange(event) {
@@ -47,6 +47,13 @@ function Home() {
 				handleSubmit={handleSubmit}
 				searchString={searchString}
 			/>
+			{games?.map((game) => (
+				<div key={game.name}>
+					<h1>{game.name}</h1>
+					<img src={game.image.small_url} alt='game' />
+					<p>{game.deck}</p>
+				</div>
+			))}
 		</div>
 	);
 }

@@ -8,7 +8,7 @@ function HallOfFame(props) {
 			{props.data.map((game) => (
 				<div key={game.name}>
 					<h1>{game.name}</h1>
-					<img src={game.image.small_url} alt='game image' />
+					<img src={game.image.small_url} alt='game' />
 					<p>{game.deck}</p>
 				</div>
 			))}

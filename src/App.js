@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Header from './Components/Header/Header';
 import { Link, Route } from 'react-router-dom';
 import HallOfFame from './Components/HallOfFame/HallOfFame';
@@ -7,7 +7,6 @@ import NewReleases from './Components/NewReleases/NewReleases';
 import Home from './Components/Home/Home';
 
 function App() {
-
 	return (
 		<div className='App'>
 			<Header />
