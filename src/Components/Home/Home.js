@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import SearchForm from '../SearchForm/SearchForm';
 
 function Home() {
 	const [data, setData] = useState([]);
@@ -41,6 +42,11 @@ function Home() {
 	return (
 		<div>
 			<h1>This is the Home Page</h1>
+			<SearchForm
+				handleChange={handleChange}
+				handleSubmit={handleSubmit}
+				searchString={searchString}
+			/>
 		</div>
 	);
 }
