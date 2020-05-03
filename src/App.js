@@ -5,6 +5,8 @@ import HallOfFame from './Components/HallOfFame/HallOfFame';
 import hofData from './data/hof-data.json';
 import NewReleases from './Components/NewReleases/NewReleases';
 import Home from './Components/Home/Home';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 function App() {
 	return (
@@ -31,6 +33,7 @@ function App() {
 				}}
 			/>
 			<Route path='/NewReleases' component={NewReleases} />
+			{/* <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css'></script> */}
 		</div>
 	);
 }

@@ -19,7 +19,12 @@ function Home() {
 	}, []);
 
 	function getGames(searchString) {
-		const url = `https://cors-anywhere.herokuapp.com/${searchOptions.api}${searchOptions.endpoint}?api_key=${searchOptions.key}&format=${searchOptions.format}&limit=${searchOptions.limit}&filter=name:${searchString}`;
+		let offset = 0;
+		if (searchString === '') {
+			offset = Math.floor(Math.random() * 70000);
+		}
+
+		const url = `https://cors-anywhere.herokuapp.com/${searchOptions.api}${searchOptions.endpoint}?api_key=${searchOptions.key}&format=${searchOptions.format}&limit=${searchOptions.limit}&filter=name:${searchString}&offset=${offset}`;
 
 		fetch(url)
 			.then((response) => response.json())
