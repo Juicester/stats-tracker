@@ -4,36 +4,18 @@ import { Link, Route } from 'react-router-dom';
 import HallOfFame from './Components/HallOfFame/HallOfFame';
 import hofData from './data/hof-data.json';
 import NewReleases from './Components/NewReleases/NewReleases';
+import Home from './Components/Home/Home';
 
 function App() {
-	const [data, setData] = useState([]);
-
-	const searchOptions = {
-		key: process.env.REACT_APP_GIANTBOMB_KEY,
-		limit: 10,
-		format: 'json',
-		name: 'Halo',
-		api: 'https://www.giantbomb.com/api',
-		endpoint: '/games',
-	};
-
-	const url = `${searchOptions.api}${searchOptions.endpoint}?api_key=${searchOptions.key}&format=${searchOptions.format}&limit=${searchOptions.limit}&filter=name:${searchOptions.name}`;
-	// console.log(url);
-
-	// useEffect(() => {
-	// 	fetch('https://cors-anywhere.herokuapp.com/' + url)
-	// 		.then((res) => res.json())
-	// 		.then(console.log)
-	// 		.catch(console.error);
-	// });
-
-	// console.log(hofData);
 
 	return (
 		<div className='App'>
 			<Header />
 			<div>
 				<nav>
+					<Link to='/'>
+						<h1>Home</h1>
+					</Link>
 					<Link to='/HallOfFame'>
 						<h1>Hall of Fame</h1>
 					</Link>
@@ -42,6 +24,7 @@ function App() {
 					</Link>
 				</nav>
 			</div>
+			<Route path='/' exact={true} component={Home} />
 			<Route
 				path='/HallOfFame'
 				render={() => {

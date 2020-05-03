@@ -2,15 +2,15 @@ import React, { useState, useEffect } from 'react';
 
 function NewReleases() {
 	let today = new Date();
+	console.log(today);
 	let year = today.getFullYear();
 	let month = today.getMonth();
-	// console.log(year);
-	// console.log(month);
 
 	const [releaseData, setReleaseData] = useState([]);
 
 	useEffect(() => {
 		getReleaseData();
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
 	const newReleaseOptions = {
@@ -20,8 +20,8 @@ function NewReleases() {
 		api: 'https://www.giantbomb.com/api',
 		endpoint: '/games',
 		sort: 'direction:desc',
-		filterYear: '2020',
-		filterMonth: '6',
+		filterYear: year,
+		filterMonth: month + 2,
 	};
 
 	function getReleaseData() {
