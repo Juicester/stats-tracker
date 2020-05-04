@@ -1,6 +1,8 @@
 import React from 'react';
 
+// search Form
 function SearchForm(props) {
+	// destructure the props
 	const {
 		handleSubmit,
 		handleChange,
@@ -8,6 +10,8 @@ function SearchForm(props) {
 		limit,
 		handleLimitChange,
 	} = props;
+
+	// show the Form and set values on submit
 	return (
 		<form onSubmit={handleSubmit}>
 			<input
@@ -16,16 +20,16 @@ function SearchForm(props) {
 				name='searchString'
 				required
 				onChange={handleChange}
-                value={searchString}
-                className='search-input'
+				value={searchString}
+				className='search-input'
 			/>
 			<input
 				type='text'
 				placeholder='Limit'
 				name='limit'
 				onChange={handleLimitChange}
-                value={limit}
-                className='limit-input'
+				value={limit}
+				className='limit-input'
 			/>
 			<button type='submit'>Search</button>
 		</form>

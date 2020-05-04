@@ -7,6 +7,7 @@ import NewReleases from './Components/NewReleases/NewReleases';
 import Home from './Components/Home/Home';
 import './App.css';
 
+// main app with Links and Routes to the pages
 function App() {
 	return (
 		<div className='App'>
@@ -32,7 +33,6 @@ function App() {
 				}}
 			/>
 			<Route path='/NewReleases' component={NewReleases} />
-			{/* <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css'></script> */}
 			<footer>
 				<h3>Powered by the GIANTBOMB API</h3>
 			</footer>

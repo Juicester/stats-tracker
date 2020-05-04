@@ -2,8 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 
 function HallOfFame(props) {
-	// console.log(props);
-
+	// map over the data passed down in props and show the div's
 	return (
 		<Container fluid>
 			<h1>Juicester's Top 5</h1>
