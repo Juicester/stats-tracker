@@ -1,4 +1,4 @@
-# Stats-Tracker
+# Hall of Games
 
 Project 1 for GA
 
