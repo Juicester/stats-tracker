@@ -1,6 +1,6 @@
 # Hall of Games
 
-Project 1 for GA
+Project 2 for GA
 
 To Play Click [This](https://hall-of-games.herokuapp.com/)
 
@@ -14,7 +14,7 @@ Hall of Games is a react app that uses the Giantbomb API to search for all games
 - Visual Studio
 - Heroku
 - GiantBomb API
-- Javescript React
+- Javascript React
 - CSS
 - HTML
 - React Bootstrap
